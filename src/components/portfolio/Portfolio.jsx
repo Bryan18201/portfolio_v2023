@@ -14,7 +14,7 @@ const Portfolio = () => {
         <h5>Mis ultimos proyectos</h5>
         <h2>Portfolio</h2>
         
-        <div className='container portfolio__container'>
+        <div className='container portfolio__container' data-aos="fade-left" data-aos-duration="3000">
         <article className='portfolio__item'>
         <div className='portfolio__item-image'>
           <img src={IMG1} alt="" />
@@ -77,7 +77,6 @@ const Portfolio = () => {
         <h3>ChatGPT Discord</h3>
         <div className="portfolio__item-cta">
         <a href="https://github.com/Bryan18201/chatGPTBotDiscord" className='btn' target='_blank' rel='noreferrer'>Github</a>
-        <a href="https://discord.com/api/oauth2/authorize?permissions=8&scope=bot&client_id=1067463987710668850" className='btn btn-primary' target='_blank' rel='noreferrer'>Demo</a>
         </div>
         </article>
         

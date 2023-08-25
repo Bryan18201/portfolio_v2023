@@ -28,12 +28,12 @@ const Contact = () => {
       <h5>¡Dame un toque!</h5>
       <h2>Contáctame</h2>
 
-      <div className="container contact__container">
+      <div className="container contact__container" data-aos="zoom-in" data-aos-duration="3000">
         <div className="contact__options">
           <article className="contact__option">
             <MdOutlineEmail className="contact__option-icon" />
-            <h4>Email</h4>
-            <h5>Jose446533@gmail.com</h5>
+            <h4>Gmail</h4>
+            <h5>Jose446533</h5>
             <a
               href="mailto:jose446533@gmail.com"
               target={"_blank"}
@@ -46,7 +46,7 @@ const Contact = () => {
             <RiMessengerLine className="contact__option-icon" />
             <h4>Messenger</h4>
             <h5>Bryan Mañon</h5>
-            <a href="https://m.me/" target={"_blank"} rel="noreferrer">
+            <a href="https://m.me/MañonColonBryan" target={"_blank"} rel="noreferrer">
               Mándame un mensaje
             </a>
           </article>

@@ -72,14 +72,16 @@
         gap: 1rem;
         
     }
-
+    .experience__container > div:last-child{
+      display:none;
+    }
     .experience__container > div{
-        width: 100%;
-        padding: 2rem 1rem;
+        width: 95%;
+        padding: 0.5rem 0rem;
     }
 
     .experience__content {
-        padding: 2rem 1rem;
+        padding: 1rem 0rem;
       
       }
 

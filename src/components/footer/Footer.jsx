@@ -47,7 +47,7 @@ const Footer = () => {
       </div>
 
       <div className="footer__copyright">
-        <small>&copy; Bryan José Mañon. Todos los derechos reservados</small>
+        <small>&copy; Bryan José Mañón Colon. Todos los derechos reservados 2023</small>
       </div>
     </footer>
     </section>

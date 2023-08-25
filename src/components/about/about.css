@@ -32,7 +32,7 @@
 }
 
 .about__cards {
-    display: grid;
+    
     grid-template-columns:  repeat(3, 1fr);
     gap: 1.5rem;
 }
@@ -107,12 +107,12 @@ h5{
 
 @media screen and (max-width: 600px)  {
     .about__me{
-        width: 75%;
+        width: 85%;
         margin: 0 auto 3rem;
         
     }
     .about__card{
-        grid-template-columns: 1fr 1fr;
+        align-items: center;
         gap: 1rem;
         padding-left: 0.5rem;
     }

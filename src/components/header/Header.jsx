@@ -7,17 +7,18 @@ import HeaderSocials from './HeaderSocials'
 const Header = () => {
   return (
     <header>
-      <div className="container header__container">
+      <div className="container header__container" data-aos="fade-right" data-aos-duration="3000" >
         <h3>Hola, yo soy</h3>
         <h1>Bryan José Mañón Colon</h1>
         <h4 className="text-light">Desarrollador de Software Junior</h4>
           <CTA/>
           <HeaderSocials/>
-          <div className="me">
+          <div className="me" data-aos="fade-zoom" data-aos-duration="4000">
             <img src= {ME}  alt="me"  />
 
           </div>
-          <a href="#footer" className='scroll__down'>Desplazar abajo</a>
+          <a href="#footer"  className='scroll__down' >Desplazar abajo</a>
+         
 
       </div>
     </header>

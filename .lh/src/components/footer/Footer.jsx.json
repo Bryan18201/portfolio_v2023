@@ -1,0 +1,22 @@
+{
+    "sourceFile": "src/components/footer/Footer.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 1,
+            "patches": [
+                {
+                    "date": 1686763056013,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1686763068199,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,57 @@\n+/* eslint-disable jsx-a11y/anchor-is-valid */\r\n+import React from \"react\";\r\n+import \"./footer.css\";\r\n+// React icons imports\r\n+import { FaFacebookF } from \"react-icons/fa\";\r\n+import { FiInstagram } from \"react-icons/fi\";\r\n+import {BsWhatsapp} from 'react-icons/bs'\r\n+\r\n+const Footer = () => {\r\n+  return (\r\n+    <section id=\"footer\">\r\n+    <footer>\r\n+      <a href=\"#\" className=\"footer__logo\">\r\n+        Bryan Mañon\r\n+      </a>\r\n+\r\n+      <ul className=\"permalinks\">\r\n+        <li>\r\n+          <a href=\"#\">Inicio</a>\r\n+        </li>\r\n+        <li>\r\n+          <a href=\"#about\">Sobre mí</a>\r\n+        </li>\r\n+        <li>\r\n+          <a href=\"#experience\">Experiencia</a>\r\n+        </li>\r\n+     \r\n+        <li>\r\n+          <a href=\"#portfolio\">Portafolio</a>\r\n+        </li>\r\n+       \r\n+        <li>\r\n+          <a href=\"#contact\">Contactos</a>\r\n+        </li>\r\n+      </ul>\r\n+\r\n+      <div className=\"footer__socials\"> \r\n+        <a href=\"https://web.facebook.com/profile.php?id=100008166887256\" target='_blank' rel=\"noreferrer\">\r\n+          <FaFacebookF />\r\n+        </a>\r\n+        <a href=\"https://www.instagram.com/bryan_jose18/\" target='_blank' rel=\"noreferrer\">\r\n+          <FiInstagram />\r\n+        </a>\r\n+        <a  href=\"https://api.whatsapp.com/send?phone=18098202485\" target='_blank' rel=\"noreferrer\">\r\n+          <BsWhatsapp />\r\n+        </a>\r\n+      </div>\r\n+\r\n+      <div className=\"footer__copyright\">\r\n+        <small>&copy; Bryan José Mañón Colon. Todos los derechos reservados 2023</small>\r\n+      </div>\r\n+    </footer>\r\n+    </section>\r\n+  );\r\n+};\r\n+\r\n+export default Footer;\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1686763056013,
+            "name": "Commit-0",
+            "content": "/* eslint-disable jsx-a11y/anchor-is-valid */\r\nimport React from \"react\";\r\nimport \"./footer.css\";\r\n// React icons imports\r\nimport { FaFacebookF } from \"react-icons/fa\";\r\nimport { FiInstagram } from \"react-icons/fi\";\r\nimport {BsWhatsapp} from 'react-icons/bs'\r\n\r\nconst Footer = () => {\r\n  return (\r\n    <section id=\"footer\">\r\n    <footer>\r\n      <a href=\"#\" className=\"footer__logo\">\r\n        Bryan Mañon\r\n      </a>\r\n\r\n      <ul className=\"permalinks\">\r\n        <li>\r\n          <a href=\"#\">Inicio</a>\r\n        </li>\r\n        <li>\r\n          <a href=\"#about\">Sobre mí</a>\r\n        </li>\r\n        <li>\r\n          <a href=\"#experience\">Experiencia</a>\r\n        </li>\r\n     \r\n        <li>\r\n          <a href=\"#portfolio\">Portafolio</a>\r\n        </li>\r\n       \r\n        <li>\r\n          <a href=\"#contact\">Contactos</a>\r\n        </li>\r\n      </ul>\r\n\r\n      <div className=\"footer__socials\"> \r\n        <a href=\"https://web.facebook.com/profile.php?id=100008166887256\" target='_blank' rel=\"noreferrer\">\r\n          <FaFacebookF />\r\n        </a>\r\n        <a href=\"https://www.instagram.com/bryan_jose18/\" target='_blank' rel=\"noreferrer\">\r\n          <FiInstagram />\r\n        </a>\r\n        <a  href=\"https://api.whatsapp.com/send?phone=18098202485\" target='_blank' rel=\"noreferrer\">\r\n          <BsWhatsapp />\r\n        </a>\r\n      </div>\r\n\r\n      <div className=\"footer__copyright\">\r\n        <small>&copy; Bryan José Mañon Colon. Todos los derechos reservados</small>\r\n      </div>\r\n    </footer>\r\n    </section>\r\n  );\r\n};\r\n\r\nexport default Footer;"
+        }
+    ]
+}

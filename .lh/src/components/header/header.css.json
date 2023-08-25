@@ -1,0 +1,94 @@
+{
+    "sourceFile": "src/components/header/header.css",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 19,
+            "patches": [
+                {
+                    "date": 1686757937081,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1686757947024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -78,9 +78,9 @@\n /* Queries para convertir en responsives dispositivos pequeños (Telefonos)  */\r\n \r\n @media screen and (max-width: 600px)  {\r\n     header {\r\n-        height: 130vh;\r\n+        height: 140vh;\r\n     }\r\n     \r\n     .header__socials,\r\n     .scroll__down{\r\n"
+                },
+                {
+                    "date": 1686757963679,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,9 +68,9 @@\n \r\n @media screen and (max-width: 1024px)  {\r\n \r\n     header {\r\n-        height: 100vh;\r\n+        height: 10vh;\r\n     }\r\n }\r\n \r\n \r\n"
+                },
+                {
+                    "date": 1686757972163,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -68,9 +68,9 @@\n \r\n @media screen and (max-width: 1024px)  {\r\n \r\n     header {\r\n-        height: 10vh;\r\n+        height: 120vh;\r\n     }\r\n }\r\n \r\n \r\n@@ -78,9 +78,9 @@\n /* Queries para convertir en responsives dispositivos pequeños (Telefonos)  */\r\n \r\n @media screen and (max-width: 600px)  {\r\n     header {\r\n-        height: 140vh;\r\n+        height: 120vh;\r\n     }\r\n     \r\n     .header__socials,\r\n     .scroll__down{\r\n"
+                },
+                {
+                    "date": 1686758016627,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n header {\r\n-    height: 100vh;\r\n+    height: 120vh;\r\n     padding-top: 7rem;\r\n     overflow: hidden;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686763112024,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,89 @@\n+header {\r\n+    height: 110vh;\r\n+    padding-top: 7rem;\r\n+    overflow: hidden;\r\n+}\r\n+\r\n+.header__container{\r\n+    text-align: center;\r\n+    height: 100%;\r\n+    position: relative;\r\n+}\r\n+\r\n+/* CTA  */\r\n+\r\n+.cta{\r\n+    margin-top: 2.5rem;\r\n+    display: flex;\r\n+    gap: 1.2rem;\r\n+    justify-content: center;\r\n+}\r\n+\r\n+/* Redes sociales Header  */\r\n+\r\n+.header__socials {\r\n+    display: flex;\r\n+    flex-direction: column;\r\n+    align-items: center;\r\n+    gap: 0.8rem;\r\n+    position: absolute;\r\n+    left: 0;\r\n+    bottom: 3rem;\r\n+}\r\n+\r\n+.header__socials::after {\r\n+    content: \"\";\r\n+    width: 1px;\r\n+    height: 2rem;\r\n+    background: var(--color-primary) ;\r\n+}\r\n+\r\n+/* YO */\r\n+\r\n+.me{\r\n+    background: linear-gradient(var(--color-primary), transparent);\r\n+    width: 22rem;\r\n+    height: 32rem;\r\n+    position: absolute;\r\n+    left: calc(50% - 11rem);\r\n+    margin-top: 4rem;\r\n+    border-radius: 12rem 12rem 0 0;\r\n+    overflow: hidden;\r\n+    padding: 5rem 1.5rem 1.5rem 1.5rem;\r\n+}\r\n+\r\n+\r\n+\r\n+.scroll__down {\r\n+    position: absolute;\r\n+    right: -2.3rem;\r\n+    bottom: 2rem;\r\n+    transform: rotate(90deg);\r\n+    font-weight: 300;\r\n+    font-size: 0.9rem;\r\n+}\r\n+\r\n+\r\n+/* Queries para convertir en responsives dispositivos medianos (TABLETS)  */\r\n+\r\n+@media screen and (max-width: 1024px)  {\r\n+\r\n+    header {\r\n+        height: 120vh;\r\n+    }\r\n+}\r\n+\r\n+\r\n+    \r\n+/* Queries para convertir en responsives dispositivos pequeños (Telefonos)  */\r\n+\r\n+@media screen and (max-width: 600px)  {\r\n+    header {\r\n+        height: 120vh;\r\n+    }\r\n+    \r\n+    .header__socials,\r\n+    .scroll__down{\r\n+        display: none;\r\n+    }\r\n+}\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686763126067,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n header {\r\n     height: 110vh;\r\n-    padding-top: 7rem;\r\n+    padding-top: 5rem;\r\n     overflow: hidden;\r\n }\r\n \r\n .header__container{\r\n@@ -85,94 +85,5 @@\n     .header__socials,\r\n     .scroll__down{\r\n         display: none;\r\n     }\r\n-}\n-header {\r\n-    height: 120vh;\r\n-    padding-top: 7rem;\r\n-    overflow: hidden;\r\n-}\r\n-\r\n-.header__container{\r\n-    text-align: center;\r\n-    height: 100%;\r\n-    position: relative;\r\n-}\r\n-\r\n-/* CTA  */\r\n-\r\n-.cta{\r\n-    margin-top: 2.5rem;\r\n-    display: flex;\r\n-    gap: 1.2rem;\r\n-    justify-content: center;\r\n-}\r\n-\r\n-/* Redes sociales Header  */\r\n-\r\n-.header__socials {\r\n-    display: flex;\r\n-    flex-direction: column;\r\n-    align-items: center;\r\n-    gap: 0.8rem;\r\n-    position: absolute;\r\n-    left: 0;\r\n-    bottom: 3rem;\r\n-}\r\n-\r\n-.header__socials::after {\r\n-    content: \"\";\r\n-    width: 1px;\r\n-    height: 2rem;\r\n-    background: var(--color-primary) ;\r\n-}\r\n-\r\n-/* YO */\r\n-\r\n-.me{\r\n-    background: linear-gradient(var(--color-primary), transparent);\r\n-    width: 22rem;\r\n-    height: 32rem;\r\n-    position: absolute;\r\n-    left: calc(50% - 11rem);\r\n-    margin-top: 4rem;\r\n-    border-radius: 12rem 12rem 0 0;\r\n-    overflow: hidden;\r\n-    padding: 5rem 1.5rem 1.5rem 1.5rem;\r\n-}\r\n-\r\n-\r\n-\r\n-.scroll__down {\r\n-    position: absolute;\r\n-    right: -2.3rem;\r\n-    bottom: 2rem;\r\n-    transform: rotate(90deg);\r\n-    font-weight: 300;\r\n-    font-size: 0.9rem;\r\n-}\r\n-\r\n-\r\n-/* Queries para convertir en responsives dispositivos medianos (TABLETS)  */\r\n-\r\n-@media screen and (max-width: 1024px)  {\r\n-\r\n-    header {\r\n-        height: 120vh;\r\n-    }\r\n-}\r\n-\r\n-\r\n-    \r\n-/* Queries para convertir en responsives dispositivos pequeños (Telefonos)  */\r\n-\r\n-@media screen and (max-width: 600px)  {\r\n-    header {\r\n-        height: 120vh;\r\n-    }\r\n-    \r\n-    .header__socials,\r\n-    .scroll__down{\r\n-        display: none;\r\n-    }\r\n }\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1686763136993,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n header {\r\n-    height: 110vh;\r\n+    height: 100vh;\r\n     padding-top: 5rem;\r\n     overflow: hidden;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686763155722,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n header {\r\n-    height: 100vh;\r\n+    height: 110vh;\r\n     padding-top: 5rem;\r\n     overflow: hidden;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686763178461,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n header {\r\n-    height: 110vh;\r\n+    height: 105vh;\r\n     padding-top: 5rem;\r\n     overflow: hidden;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686763195801,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n header {\r\n-    height: 105vh;\r\n+    height: 115vh;\r\n     padding-top: 5rem;\r\n     overflow: hidden;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686763200982,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n header {\r\n-    height: 115vh;\r\n+    height: 1vh;\r\n     padding-top: 5rem;\r\n     overflow: hidden;\r\n }\r\n \r\n"
+                },
+                {
+                    "date": 1686763246555,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n header {\r\n-    height: 1vh;\r\n+    height: 100vh;\r\n     padding-top: 5rem;\r\n     overflow: hidden;\r\n }\r\n \r\n@@ -56,9 +56,9 @@\n \r\n .scroll__down {\r\n     position: absolute;\r\n     right: -2.3rem;\r\n-    bottom: 2rem;\r\n+    bottom: 1rem;\r\n     transform: rotate(90deg);\r\n     font-weight: 300;\r\n     font-size: 0.9rem;\r\n }\r\n"
+                },
+                {
+                    "date": 1686763251869,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n \r\n .scroll__down {\r\n     position: absolute;\r\n     right: -2.3rem;\r\n-    bottom: 1rem;\r\n+    bottom: 63rem;\r\n     transform: rotate(90deg);\r\n     font-weight: 300;\r\n     font-size: 0.9rem;\r\n }\r\n"
+                },
+                {
+                    "date": 1686763276139,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,6 +1,6 @@\n header {\r\n-    height: 100vh;\r\n+    height: 150vh;\r\n     padding-top: 5rem;\r\n     overflow: hidden;\r\n }\r\n \r\n@@ -56,9 +56,9 @@\n \r\n .scroll__down {\r\n     position: absolute;\r\n     right: -2.3rem;\r\n-    bottom: 63rem;\r\n+    bottom: 3rem;\r\n     transform: rotate(90deg);\r\n     font-weight: 300;\r\n     font-size: 0.9rem;\r\n }\r\n"
+                },
+                {
+                    "date": 1686763330775,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,7 +1,7 @@\n header {\r\n-    height: 150vh;\r\n-    padding-top: 5rem;\r\n+    height: 105vh;\r\n+    padding-top: 4rem;\r\n     overflow: hidden;\r\n }\r\n \r\n .header__container{\r\n"
+                },
+                {
+                    "date": 1686763387491,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n     align-items: center;\r\n     gap: 0.8rem;\r\n     position: absolute;\r\n     left: 0;\r\n-    bottom: 3rem;\r\n+    bottom: 2rem;\r\n }\r\n \r\n .header__socials::after {\r\n     content: \"\";\r\n"
+                },
+                {
+                    "date": 1686763395871,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -27,9 +27,9 @@\n     align-items: center;\r\n     gap: 0.8rem;\r\n     position: absolute;\r\n     left: 0;\r\n-    bottom: 2rem;\r\n+    bottom: 7rem;\r\n }\r\n \r\n .header__socials::after {\r\n     content: \"\";\r\n"
+                },
+                {
+                    "date": 1686763414544,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n \r\n .scroll__down {\r\n     position: absolute;\r\n     right: -2.3rem;\r\n-    bottom: 3rem;\r\n+    bottom: 7rem;\r\n     transform: rotate(90deg);\r\n     font-weight: 300;\r\n     font-size: 0.9rem;\r\n }\r\n"
+                },
+                {
+                    "date": 1686763423872,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -56,9 +56,9 @@\n \r\n .scroll__down {\r\n     position: absolute;\r\n     right: -2.3rem;\r\n-    bottom: 7rem;\r\n+    bottom: 8rem;\r\n     transform: rotate(90deg);\r\n     font-weight: 300;\r\n     font-size: 0.9rem;\r\n }\r\n"
+                }
+            ],
+            "date": 1686757937081,
+            "name": "Commit-0",
+            "content": "header {\r\n    height: 100vh;\r\n    padding-top: 7rem;\r\n    overflow: hidden;\r\n}\r\n\r\n.header__container{\r\n    text-align: center;\r\n    height: 100%;\r\n    position: relative;\r\n}\r\n\r\n/* CTA  */\r\n\r\n.cta{\r\n    margin-top: 2.5rem;\r\n    display: flex;\r\n    gap: 1.2rem;\r\n    justify-content: center;\r\n}\r\n\r\n/* Redes sociales Header  */\r\n\r\n.header__socials {\r\n    display: flex;\r\n    flex-direction: column;\r\n    align-items: center;\r\n    gap: 0.8rem;\r\n    position: absolute;\r\n    left: 0;\r\n    bottom: 3rem;\r\n}\r\n\r\n.header__socials::after {\r\n    content: \"\";\r\n    width: 1px;\r\n    height: 2rem;\r\n    background: var(--color-primary) ;\r\n}\r\n\r\n/* YO */\r\n\r\n.me{\r\n    background: linear-gradient(var(--color-primary), transparent);\r\n    width: 22rem;\r\n    height: 32rem;\r\n    position: absolute;\r\n    left: calc(50% - 11rem);\r\n    margin-top: 4rem;\r\n    border-radius: 12rem 12rem 0 0;\r\n    overflow: hidden;\r\n    padding: 5rem 1.5rem 1.5rem 1.5rem;\r\n}\r\n\r\n\r\n\r\n.scroll__down {\r\n    position: absolute;\r\n    right: -2.3rem;\r\n    bottom: 2rem;\r\n    transform: rotate(90deg);\r\n    font-weight: 300;\r\n    font-size: 0.9rem;\r\n}\r\n\r\n\r\n/* Queries para convertir en responsives dispositivos medianos (TABLETS)  */\r\n\r\n@media screen and (max-width: 1024px)  {\r\n\r\n    header {\r\n        height: 100vh;\r\n    }\r\n}\r\n\r\n\r\n    \r\n/* Queries para convertir en responsives dispositivos pequeños (Telefonos)  */\r\n\r\n@media screen and (max-width: 600px)  {\r\n    header {\r\n        height: 130vh;\r\n    }\r\n    \r\n    .header__socials,\r\n    .scroll__down{\r\n        display: none;\r\n    }\r\n}"
+        }
+    ]
+}
