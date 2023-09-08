@@ -8,6 +8,7 @@ import React, { useEffect } from "react";
 import Footer from './components/footer/Footer'
 import AOS from 'aos';
 import "./aos.css";
+// import Services from './components/services/Services'
 
 const App = () => {
   useEffect(() => {
@@ -15,19 +16,19 @@ const App = () => {
     AOS.refresh();
   });
   return (
-    
+
     <>
-    <Header/>
-    <Nav/>
-    <About/>
-    <Experience/> 
-    <Portfolio/>
-    <Contact />
-    <Footer />
-    
+      <Header />
+      <Nav />
+      <About />
+      <Experience />
+      <Portfolio />
+      <Contact />
+      <Footer />
+
     </>
 
-    
+
   )
 }
 

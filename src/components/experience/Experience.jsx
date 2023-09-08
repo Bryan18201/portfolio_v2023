@@ -43,6 +43,20 @@ const Experience = () => {
               </div>
             </article>
             <article className="experience__details">
+              <SiJavascript className="experience__details-icon" />
+              <div>
+                <h4>JavaScript</h4>
+                <small className="text-light">Avanzado</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <DiPhp className="experience__details-icon" />
+              <div>
+                <h4>PHP</h4>
+                <small className="text-light">Intermedio</small>
+              </div>
+            </article>
+            <article className="experience__details">
               <AiFillHtml5 className="experience__details-icon" />
               <div>
                 <h4>HTML</h4>
@@ -56,13 +70,7 @@ const Experience = () => {
                 <small className="text-light">Avanzado</small>
               </div>
             </article>
-            <article className="experience__details">
-              <SiJavascript className="experience__details-icon" />
-              <div>
-                <h4>JavaScript</h4>
-                <small className="text-light">Intermedio</small>
-              </div>
-            </article>
+
 
             <article className="experience__details">
               <GrMysql className="experience__details-icon" />
@@ -87,13 +95,7 @@ const Experience = () => {
               </div>
             </article>
 
-            <article className="experience__details">
-              <DiPhp className="experience__details-icon" />
-              <div>
-                <h4>PHP</h4>
-                <small className="text-light">Intermedio</small>
-              </div>
-            </article>
+
 
             <article className="experience__details">
               <FaNodeJs className="experience__details-icon" />

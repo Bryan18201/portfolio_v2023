@@ -1,0 +1,42 @@
+{
+    "sourceFile": "src/App.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 6,
+            "patches": [
+                {
+                    "date": 1694194427942,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                },
+                {
+                    "date": 1694195250466,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,8 +21,9 @@\n       <Nav />\r\n       <About />\r\n       <Experience />\r\n       <Portfolio />\r\n+      <s\r\n       <Contact />\r\n       <Footer />\r\n \r\n     </>\r\n"
+                },
+                {
+                    "date": 1694195255868,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -21,9 +21,9 @@\n       <Nav />\r\n       <About />\r\n       <Experience />\r\n       <Portfolio />\r\n-      <s\r\n+      \r\n       <Contact />\r\n       <Footer />\r\n \r\n     </>\r\n"
+                },
+                {
+                    "date": 1694195261751,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,37 @@\n+import Header from './components/header/Header'\r\n+import Nav from './components/nav/Nav'\r\n+import About from './components/about/About'\r\n+import Experience from './components/experience/Experience'\r\n+import Portfolio from './components/portfolio/Portfolio'\r\n+import Contact from './components/contact/Contact'\r\n+Services\r\n+import React, { useEffect } from \"react\";\r\n+import Footer from './components/footer/Footer'\r\n+import AOS from 'aos';\r\n+import \"./aos.css\";\r\n+import Services from './components/services/Services'\r\n+\r\n+const App = () => {\r\n+  useEffect(() => {\r\n+    AOS.init();\r\n+    AOS.refresh();\r\n+  });\r\n+  return (\r\n+\r\n+    <>\r\n+      <Header />\r\n+      <Nav />\r\n+      <About />\r\n+      <Experience />\r\n+      <Portfolio />\r\n+      \r\n+      <Contact />\r\n+      <Footer />\r\n+\r\n+    </>\r\n+\r\n+\r\n+  )\r\n+}\r\n+\r\n+export default App\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1694195271860,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,36 @@\n+import Header from './components/header/Header'\r\n+import Nav from './components/nav/Nav'\r\n+import About from './components/about/About'\r\n+import Experience from './components/experience/Experience'\r\n+import Portfolio from './components/portfolio/Portfolio'\r\n+import Contact from './components/contact/Contact'\r\n+import React, { useEffect } from \"react\";\r\n+import Footer from './components/footer/Footer'\r\n+import AOS from 'aos';\r\n+import \"./aos.css\";\r\n+import Services from './components/services/Services'\r\n+\r\n+const App = () => {\r\n+  useEffect(() => {\r\n+    AOS.init();\r\n+    AOS.refresh();\r\n+  });\r\n+  return (\r\n+\r\n+    <>\r\n+      <Header />\r\n+      <Nav />\r\n+      <About />\r\n+      <Experience />\r\n+      <Portfolio />\r\n+      <Services />\r\n+      <Contact />\r\n+      <Footer />\r\n+\r\n+    </>\r\n+\r\n+\r\n+  )\r\n+}\r\n+\r\n+export default App\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1694195965645,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,35 @@\n+import Header from './components/header/Header'\r\n+import Nav from './components/nav/Nav'\r\n+import About from './components/about/About'\r\n+import Experience from './components/experience/Experience'\r\n+import Portfolio from './components/portfolio/Portfolio'\r\n+import Contact from './components/contact/Contact'\r\n+import React, { useEffect } from \"react\";\r\n+import Footer from './components/footer/Footer'\r\n+import AOS from 'aos';\r\n+import \"./aos.css\";\r\n+import Services from './components/services/Services'\r\n+\r\n+const App = () => {\r\n+  useEffect(() => {\r\n+    AOS.init();\r\n+    AOS.refresh();\r\n+  });\r\n+  return (\r\n+\r\n+    <>\r\n+      <Header />\r\n+      <Nav />\r\n+      <About />\r\n+      <Experience />\r\n+      <Portfolio />\r\n+      <Contact />\r\n+      <Footer />\r\n+\r\n+    </>\r\n+\r\n+\r\n+  )\r\n+}\r\n+\r\n+export default App\n\\ No newline at end of file\n"
+                },
+                {
+                    "date": 1694195973688,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -0,0 +1,35 @@\n+import Header from './components/header/Header'\r\n+import Nav from './components/nav/Nav'\r\n+import About from './components/about/About'\r\n+import Experience from './components/experience/Experience'\r\n+import Portfolio from './components/portfolio/Portfolio'\r\n+import Contact from './components/contact/Contact'\r\n+import React, { useEffect } from \"react\";\r\n+import Footer from './components/footer/Footer'\r\n+import AOS from 'aos';\r\n+import \"./aos.css\";\r\n+// import Services from './components/services/Services'\r\n+\r\n+const App = () => {\r\n+  useEffect(() => {\r\n+    AOS.init();\r\n+    AOS.refresh();\r\n+  });\r\n+  return (\r\n+\r\n+    <>\r\n+      <Header />\r\n+      <Nav />\r\n+      <About />\r\n+      <Experience />\r\n+      <Portfolio />\r\n+      <Contact />\r\n+      <Footer />\r\n+\r\n+    </>\r\n+\r\n+\r\n+  )\r\n+}\r\n+\r\n+export default App\n\\ No newline at end of file\n"
+                }
+            ],
+            "date": 1694194427942,
+            "name": "Commit-0",
+            "content": "import Header from './components/header/Header'\r\nimport Nav from './components/nav/Nav'\r\nimport About from './components/about/About'\r\nimport Experience from './components/experience/Experience'\r\nimport Portfolio from './components/portfolio/Portfolio'\r\nimport Contact from './components/contact/Contact'\r\nimport React, { useEffect } from \"react\";\r\nimport Footer from './components/footer/Footer'\r\nimport AOS from 'aos';\r\nimport \"./aos.css\";\r\n\r\nconst App = () => {\r\n  useEffect(() => {\r\n    AOS.init();\r\n    AOS.refresh();\r\n  });\r\n  return (\r\n\r\n    <>\r\n      <Header />\r\n      <Nav />\r\n      <About />\r\n      <Experience />\r\n      <Portfolio />\r\n      <Contact />\r\n      <Footer />\r\n\r\n    </>\r\n\r\n\r\n  )\r\n}\r\n\r\nexport default App"
+        }
+    ]
+}

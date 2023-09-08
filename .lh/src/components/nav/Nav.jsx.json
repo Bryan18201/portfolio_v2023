@@ -3,7 +3,7 @@
     "activeCommit": 0,
     "commits": [
         {
-            "activePatchIndex": 1,
+            "activePatchIndex": 2,
             "patches": [
                 {
                     "date": 1686758181565,
@@ -12,6 +12,10 @@
                 {
                     "date": 1686758189697,
                     "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,4 +1,5 @@\n+/* eslint-disable jsx-a11y/anchor-is-valid */\r\n import React from 'react'\r\n import './nav.css'\r\n import {AiOutlineHome} from 'react-icons/ai'\r\n import {AiOutlineUser} from 'react-icons/ai'\r\n@@ -10,9 +11,8 @@\n const Nav = () => {\r\n   const[activeNav, setActiveNav] = useState('#')\r\n   return (\r\n     <nav>\r\n-      // eslint-disable-next-line jsx-a11y/anchor-is-valid\r\n       <a href=\"#\" onClick={() => setActiveNav('#')} className= {activeNav === '#' ? 'active' : ''}> <AiOutlineHome/></a>\r\n       <a href=\"#about\" onClick={() => setActiveNav('#about')}\r\n       className={activeNav === '#about' ? 'active' : ''}> <AiOutlineUser/></a>\r\n       <a href=\"#experience\" onClick={() => setActiveNav('#experience')}\r\n"
+                },
+                {
+                    "date": 1694194434911,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n@@ -1,28 +1,28 @@\n /* eslint-disable jsx-a11y/anchor-is-valid */\r\n import React from 'react'\r\n import './nav.css'\r\n-import {AiOutlineHome} from 'react-icons/ai'\r\n-import {AiOutlineUser} from 'react-icons/ai'\r\n-import {BiBook} from 'react-icons/bi'\r\n-import {RiServiceLine} from 'react-icons/ri'\r\n-import {AiOutlineMessage} from 'react-icons/ai'\r\n-import {useState} from 'react'\r\n- \r\n+import { AiOutlineHome } from 'react-icons/ai'\r\n+import { AiOutlineUser } from 'react-icons/ai'\r\n+import { BiBook } from 'react-icons/bi'\r\n+import { RiServiceLine } from 'react-icons/ri'\r\n+import { AiOutlineMessage } from 'react-icons/ai'\r\n+import { useState } from 'react'\r\n+\r\n const Nav = () => {\r\n-  const[activeNav, setActiveNav] = useState('#')\r\n+  const [activeNav, setActiveNav] = useState('#')\r\n   return (\r\n     <nav>\r\n-      <a href=\"#\" onClick={() => setActiveNav('#')} className= {activeNav === '#' ? 'active' : ''}> <AiOutlineHome/></a>\r\n+      <a href=\"#\" onClick={() => setActiveNav('#')} className={activeNav === '#' ? 'active' : ''}> <AiOutlineHome /></a>\r\n       <a href=\"#about\" onClick={() => setActiveNav('#about')}\r\n-      className={activeNav === '#about' ? 'active' : ''}> <AiOutlineUser/></a>\r\n+        className={activeNav === '#about' ? 'active' : ''}> <AiOutlineUser /></a>\r\n       <a href=\"#experience\" onClick={() => setActiveNav('#experience')}\r\n-      className={activeNav === '#experience' ? 'active' : ''}> <BiBook/></a>\r\n+        className={activeNav === '#experience' ? 'active' : ''}> <BiBook /></a>\r\n       <a href=\"#portfolio\" onClick={() => setActiveNav('#services')}\r\n-      className={activeNav === '#services' ? 'active' : ''} > <RiServiceLine/></a>\r\n+        className={activeNav === '#services' ? 'active' : ''} > <RiServiceLine /></a>\r\n       <a href=\"#contact\" onClick={() => setActiveNav('#contact')}\r\n-      className={activeNav === '#contact' ? 'active' : ''}> <AiOutlineMessage/></a>\r\n-      \r\n+        className={activeNav === '#contact' ? 'active' : ''}> <AiOutlineMessage /></a>\r\n+\r\n     </nav>\r\n   )\r\n }\r\n \r\n"
                 }
             ],
             "date": 1686758181565,
