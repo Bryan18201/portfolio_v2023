@@ -1,0 +1,18 @@
+{
+    "sourceFile": "src/components/header/Header.jsx",
+    "activeCommit": 0,
+    "commits": [
+        {
+            "activePatchIndex": 0,
+            "patches": [
+                {
+                    "date": 1698332385352,
+                    "content": "Index: \n===================================================================\n--- \n+++ \n"
+                }
+            ],
+            "date": 1698332385352,
+            "name": "Commit-0",
+            "content": "import React from 'react'\r\nimport './header.css'\r\nimport CTA from './CTA'\r\nimport ME from '../../assets/me1.png'\r\nimport HeaderSocials from './HeaderSocials'\r\n\r\nconst Header = () => {\r\n  return (\r\n    <header>\r\n      <div className=\"container header__container\" data-aos=\"fade-right\" data-aos-duration=\"3000\" >\r\n        <h3>Hola, yo soy</h3>\r\n        <h1>Bryan José Mañón Colon</h1>\r\n        <h4 className=\"text-light\">Desarrollador Full Stack Web Junior</h4>\r\n          <CTA/>\r\n          <HeaderSocials/>\r\n          <div className=\"me\" data-aos=\"fade-zoom\" data-aos-duration=\"4000\">\r\n            <img src= {ME}  alt=\"me\"  />\r\n\r\n          </div>\r\n          <a href=\"#footer\"  className='scroll__down' >Desplazar abajo</a>\r\n         \r\n\r\n      </div>\r\n    </header>\r\n  )\r\n}\r\n\r\nexport default Header"
+        }
+    ]
+}

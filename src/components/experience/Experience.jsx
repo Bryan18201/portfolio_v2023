@@ -1,18 +1,25 @@
 import React from "react";
 import "./experience.css";
-import { BsPatchCheckFill } from "react-icons/bs";
+
+//Front
 import { AiFillHtml5 } from "react-icons/ai";
 import { DiCss3Full } from "react-icons/di";
 import { SiJavascript } from "react-icons/si";
-
-import { GrMysql } from "react-icons/gr";
+import { SiTailwindcss } from "react-icons/si";
+import { TbBrandNextjs } from "react-icons/tb";
 import { FaReact } from "react-icons/fa";
-import { SiJava } from "react-icons/si";
+import { RiVuejsLine } from "react-icons/ri";
+import { FaAngular } from "react-icons/fa";
+
+//Back
 import { SiOracle } from "react-icons/si";
 import { DiPhp } from "react-icons/di";
-
+import { SiJava } from "react-icons/si";
 import { FaPython } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
+import { GrMysql } from "react-icons/gr";
+import { SiMongodb } from "react-icons/si";
+import { SiPostgresql } from "react-icons/si";
 
 const Experience = () => {
   return (
@@ -26,22 +33,8 @@ const Experience = () => {
         data-aos-duration="3000"
       >
         <div className="experience__frontend">
-          <h3>Stack</h3>
+          <h3>Front-End</h3>
           <div className="experience__content">
-            <article className="experience__details">
-              <SiJava className="experience__details-icon" />
-              <div>
-                <h4>Java</h4>
-                <small className="text-light">Avanzado</small>
-              </div>
-            </article>
-            <article className="experience__details">
-              <FaPython className="experience__details-icon" />
-              <div>
-                <h4>Python</h4>
-                <small className="text-light">Intermedio</small>
-              </div>
-            </article>
             <article className="experience__details">
               <SiJavascript className="experience__details-icon" />
               <div>
@@ -49,13 +42,7 @@ const Experience = () => {
                 <small className="text-light">Avanzado</small>
               </div>
             </article>
-            <article className="experience__details">
-              <DiPhp className="experience__details-icon" />
-              <div>
-                <h4>PHP</h4>
-                <small className="text-light">Intermedio</small>
-              </div>
-            </article>
+
             <article className="experience__details">
               <AiFillHtml5 className="experience__details-icon" />
               <div>
@@ -71,14 +58,6 @@ const Experience = () => {
               </div>
             </article>
 
-
-            <article className="experience__details">
-              <GrMysql className="experience__details-icon" />
-              <div>
-                <h4>MySQL</h4>
-                <small className="text-light">Avanzado</small>
-              </div>
-            </article>
             <article className="experience__details">
               <FaReact className="experience__details-icon" />
               <div>
@@ -88,20 +67,32 @@ const Experience = () => {
             </article>
 
             <article className="experience__details">
-              <SiOracle className="experience__details-icon" />
+              <SiTailwindcss className="experience__details-icon" />
               <div>
-                <h4>Oracle</h4>
+                <h4>Tailwind</h4>
                 <small className="text-light">Intermedio</small>
               </div>
             </article>
 
-
-
             <article className="experience__details">
-              <FaNodeJs className="experience__details-icon" />
+              <TbBrandNextjs className="experience__details-icon" />
               <div>
-                <h4>Node Js</h4>
+                <h4>Next JS</h4>
                 <small className="text-light">Intermedio</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <RiVuejsLine className="experience__details-icon" />
+              <div>
+                <h4>Vue JS</h4>
+                <small className="text-light">Básico</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <FaAngular className="experience__details-icon" />
+              <div>
+                <h4>Angular</h4>
+                <small className="text-light">Básico</small>
               </div>
             </article>
           </div>
@@ -112,42 +103,62 @@ const Experience = () => {
           data-aos="fade-down"
           data-aos-duration="3000"
         >
-          <h3>Otras habilidades</h3>
+          <h3>Backend</h3>
           <div className="experience__content">
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <SiJava className="experience__details-icon" />
               <div>
-                <h4>Reparación de computadoras </h4>
+                <h4>Java</h4>
+                <small className="text-light">Avanzado</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <SiOracle className="experience__details-icon" />
               <div>
-                <h4>Instalación de Software</h4>
+                <h4>Oracle</h4>
+                <small className="text-light">Intermedio</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <FaNodeJs className="experience__details-icon" />
               <div>
-                <h4>Manejo de Office</h4>
+                <h4>Node Js</h4>
+                <small className="text-light">Intermedio</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <GrMysql className="experience__details-icon" />
               <div>
-                <h4>Optimización de equipos informáticos</h4>
+                <h4>MySQL</h4>
+                <small className="text-light">Avanzado</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <DiPhp className="experience__details-icon" />
               <div>
-                <h4>Manejo de Redes Sociales</h4>
+                <h4>PHP</h4>
+                <small className="text-light">Intermedio</small>
               </div>
             </article>
             <article className="experience__details">
-              <BsPatchCheckFill className="experience__details-icon" />
+              <FaPython className="experience__details-icon" />
               <div>
-                <h4>Conocimientos de diseño</h4>
+                <h4>Python</h4>
+                <small className="text-light">Básico</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <SiMongodb className="experience__details-icon" />
+              <div>
+                <h4>MongoDB</h4>
+                <small className="text-light">Intermedio</small>
+              </div>
+            </article>
+            <article className="experience__details">
+              <SiPostgresql className="experience__details-icon" />
+              <div>
+                <h4>PostgreSQL</h4>
+                <small className="text-light">Intermedio</small>
               </div>
             </article>
           </div>

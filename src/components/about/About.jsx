@@ -37,7 +37,7 @@ const About = () => {
               <h5>Fortalezas</h5>
               <small>
                 - Pensamiento analítico <br />
-                - Habilidad para aprender
+                - Proactividad
                 <br />
                 - Atención al detalle
                 <br />
