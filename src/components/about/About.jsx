@@ -28,7 +28,7 @@ const About = () => {
               <FaAward className="about__icon"></FaAward>
               <h5>Experiencia</h5>
               <small>
-                +2 años de experiencia estudiando y practicando código
+                +3 años de experiencia practicando código
               </small>
             </article>
 
@@ -47,16 +47,14 @@ const About = () => {
             <article className="about__card">
               <BsFolderCheck className="about__icon"></BsFolderCheck>
               <h5>Proyectos</h5>
-              <small>+30 proyectos completados</small>
+              <small>+40 proyectos completados</small>
             </article>
           </div>
           <p>
-            Egresado del Instituto Tecnológico de las Américas en la carrera de
-            Tecnólogo en Software, Joven programador con habilidades sólidas en
-            tecnologías de la informática y desarrollo de software. Con una
-            pasión por resolver problemas y aprender continuamente, ansioso por
-            aplicar sus conocimientos y habilidades en un entorno de trabajo
-            desafiante y colaborativo.
+          Egresado del Instituto Tecnológico de las Américas en la carrera de Tecnólogo en Software, soy un joven programador con habilidades sólidas en tecnologías 
+          de la informática y desarrollo de software. Mi pasión por resolver problemas y aprender continuamente me ha llevado a encontrar oportunidades desafiantes 
+          donde puedo aplicar y desarrollar mis conocimientos.<br/> Actualmente, colaboro en el equipo de desarrollo del BanReservas como desarrollador junior, contribuyendo con 
+          mi experiencia y creatividad en soluciones innovadoras para el sector financiero.
           </p>
           <a href="#contact" className="btn btn-primary">
             Contáctame!

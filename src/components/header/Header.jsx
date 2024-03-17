@@ -10,7 +10,7 @@ const Header = () => {
       <div className="container header__container" data-aos="fade-right" data-aos-duration="3000" >
         <h3>Hola, yo soy</h3>
         <h1>Bryan José Mañón Colon</h1>
-        <h4 className="text-light">Desarrollador Full Stack Web Junior</h4>
+        <h4 className="text-light">Desarrollador Full Stack Junior</h4>
           <CTA/>
           <HeaderSocials/>
           <div className="me" data-aos="fade-zoom" data-aos-duration="4000">

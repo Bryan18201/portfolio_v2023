@@ -30,10 +30,10 @@ const Portfolio = () => {
         <div className='portfolio__item-image'>
           <img src={IMG2} alt="" />
         </div>
-        <h3>RickAndMorthy API</h3>
+        <h3>Software Landing Page</h3>
         <div className="portfolio__item-cta">
-        <a href="https://github.com/Bryan18201/rick-morty-api" className='btn' target='_blank' rel='noreferrer'>Github</a>
-        <a href="https://quiet-paletas-012dcb.netlify.app/" className='btn btn-primary' target='_blank' rel='noreferrer'>Demo Online</a>
+        <a href="https://github.com/Bryan18201/software-landingPage" className='btn' target='_blank' rel='noreferrer'>Github</a>
+        <a href="https://main--softwarelandingpage.netlify.app/" className='btn btn-primary' target='_blank' rel='noreferrer'>Demo Online</a>
         </div>
         </article>
 

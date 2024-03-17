@@ -19,7 +19,7 @@ import { FaPython } from "react-icons/fa";
 import { FaNodeJs } from "react-icons/fa";
 import { GrMysql } from "react-icons/gr";
 import { SiMongodb } from "react-icons/si";
-import { SiPostgresql } from "react-icons/si";
+import { SiMicrosoftsqlserver } from "react-icons/si";
 
 const Experience = () => {
   return (
@@ -155,9 +155,9 @@ const Experience = () => {
               </div>
             </article>
             <article className="experience__details">
-              <SiPostgresql className="experience__details-icon" />
+              <SiMicrosoftsqlserver className="experience__details-icon" />
               <div>
-                <h4>PostgreSQL</h4>
+                <h4>SQL Server</h4>
                 <small className="text-light">Intermedio</small>
               </div>
             </article>
